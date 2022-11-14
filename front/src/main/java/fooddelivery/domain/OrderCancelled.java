@@ -11,7 +11,6 @@ public class OrderCancelled extends AbstractEvent {
 
     private Long id;
     private String foodId;
-    private String options;
     private String address;
     private String customerId;
     private List<String> options;
